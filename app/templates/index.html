@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body class="bg-[url('images/bg_image.jpg')] bg-cover bg-no-repeat min-h-screen items-center flex flex-col gap-5 p-10">
@@ -16,7 +17,8 @@
 
     <form action="" method="get" class="flex gap-2 justify-center items-center w-4/5 md:w-3/5 lg:w-[70%] ">
         <input type="text" name="city" class="rounded-full py-2 px-3 focus:bg-white/20 outline-white/70 bg-white focus:placeholder:text-white text-white w-4/5 md:w-3/5 lg:w-[35%] " placeholder="Enter the City">
-        <button> <i class='bxr hover:scale-110 duration-500 bx-search text-white text-2xl bg-white/20 p-3 rounded-full'></i> </button>
+        <!-- <button> <i class='bxr hover:scale-110 duration-500 bx-search text-white text-2xl bg-white/20 p-3 rounded-full'></i> </button> -->
+        <button> <i class='bx bx-search hover:scale-110 duration-500 text-white text-2xl bg-white/20 p-3 rounded-full'></i> </button>
     </form>
     <!-- <form class="flex gap-3" method="get">
         <input type="text" class="bg-white/20 rounded-2xl px-8 outline-white text-white font-bold hover:scale-105 duration-500" placeholder="Enter the City" name="city">
